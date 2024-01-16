@@ -161,6 +161,78 @@ body{
     line-height: 26px;
 
 }
+.vacation{
+    width: 1170px;
+    margin: auto;
+}
+.vacation-head{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+
+
+}
+.vacation-desc{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.maldives{
+    position: relative;
+    color: #FFF;
+}
+.maldives-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+.place1,.place2,.place3{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 15px;
+    
+}
+
+    
+.sri-pic{
+    width: 374px;
+    height: 286px;
+}
+.north-pic{
+
+    width: 474px;
+    height: 286px;
+} 
+.kashmir-pic{
+    width: 274px;
+    height: 286px;
+
+}  
+
+.bd-pic{
+    width: 473px;
+    height: 300px;
+
+} 
+.bandar-pic{
+    width: 673px;
+    height: 300px;
+
+}
+
 
 
 
@@ -212,26 +284,35 @@ body{
     }
     .banner-btn{
         width: 275px;
-        margin-left: 5px;
     }
     .wherego-input{
         width: 256px;
-    margin-bottom: 15px;
-    margin-left: 13px;
+        margin-bottom: 15px;
+        margin-left: 13px;
     }
     .input-div{
         height: 280px;
         width: 318px;
         padding-top: 13px;
     }
-    .popular-tours{
+    .popular-tours,.place1,.place2,.place3{
         flex-direction: column;
+    }
+    .popular-tours{
         width: 100%;
         margin-top: -45px;
     }
     .rect-4{
         width: 414px;
         height: 424px;
+    }
+    .maldives-pic,.indo-pic,.sri-pic,.kashmir-pic,.north-pic,.bandar-pic,.bd-pic{
+
+    width: 414px;
+    height: 424px;
+    }
+    .vacation{
+        width: 414px;
     }
     
 }
