@@ -137,3 +137,67 @@ body{
 .where-go-option{
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive for mobile*/
+@media screen and (max-width:600px) {
+    .nav{
+        padding-left: 20px;
+    }
+    .nav-head{
+        font-size: 21px;
+    }
+    .travel-head{
+        font-size: 21px;
+    }
+    .nav-img{
+        height: 30px;
+    }
+    .banner-div{
+        width: 100%;
+        position: relative;
+        bottom: 45px;
+    }
+    .banner-head{
+        padding-top: 30px;
+        font-size: 22px;
+    }
+    .banner-desc br{
+        display: none;
+    }
+    .banner-desc{
+        line-height: normal;
+        font-size: 14px;
+        padding: 0px 6px;
+    }
+    .when-input{
+        width: 278px;
+        margin-bottom: 16px;
+        margin-left: 12px;
+    }
+    .banner-btn{
+        width: 275px;
+        margin-left: 5px;
+    }
+    .wherego-input{
+        width: 256px;
+    margin-bottom: 15px;
+    margin-left: 13px;
+    }
+    .input-div{
+        height: 280px;
+        width: 318px;
+        padding-top: 13px;
+    }
+    
+}
