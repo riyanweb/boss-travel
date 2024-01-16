@@ -1,0 +1,59 @@
+/*font family*/
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;  
+}
+
+
+
+
+.nav{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-head-div1{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+}
+.common-li{
+    list-style: none;
+    padding: 28px;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.home-li{
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    list-style: none;
+    padding: 28px;
+
+}
+.nav-head{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+.travel-head{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
