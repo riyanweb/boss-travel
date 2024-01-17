@@ -19,6 +19,9 @@ body{
     gap: 5px;
     align-items: center;
 }
+.nav-div3{
+    display: none;
+}
 .nav-ul{
     display: flex;
     align-items: center;
@@ -84,7 +87,7 @@ body{
     margin-bottom: 50px;
 
 }
-.input-div{
+.body-input-div{
     text-align: center;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
@@ -297,8 +300,8 @@ body{
 }
 .hotel-icon{
     width: 64px;
-height: 64px;
-flex-shrink: 0;
+    height: 64px;
+    flex-shrink: 0;
 }
 .hotel-icon, .hotel-head,.hotel-desc{
     margin-left: 35px;
@@ -313,7 +316,159 @@ flex-shrink: 0;
     margin: auto;
 
 }
+.newsletter{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.newsletter-div{
+    display: flex;
+    width: 1170px;
+    margin: auto;
+    gap: 24px;
+}
+.subscribe{
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 35px;
+}
+.subscribe-head{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
 
+}
+.subscribe-desc{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 393px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.input-div{
+    display: block;
+        text-align: left;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        width: 0px;
+        height: 67px;
+        margin: 0px;
+        padding-top: 10px;
+}
+.input-class{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 20px;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    padding-left: 25px;
+}
+.input-btn{
+    width: 402px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 16px;
+    border: none;
+}
+.save{
+    width: 672px;
+    height: 482px;
+    border-radius: 16px;
+
+
+}
+.save-img{
+    width: 672px;
+    height: 482px;
+}
+.save-discount{
+    width: 324px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    left: 160px;
+    bottom: 203px;
+    margin: auto;
+    height: 109px;
+    padding: -17px;
+    padding-top: 40px;
+}
+.save-desc{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0px;
+}
+.travel-desc{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px;
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-one{
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+
+}
+.footer-logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-head{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+.travel-footer{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+
+}
+.social-media{
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    width: 1170px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.social-media i{
+    padding-left: 30px;
+    padding-bottom: 35px;
+}
 
 
 
@@ -328,7 +483,13 @@ flex-shrink: 0;
 @media screen and (max-width:600px) {
     .nav{
         padding-left: 20px;
-        margin-top: -20px;
+        width: 100%;
+    }
+    .nav-head-div1{
+        padding-bottom: 20px;
+    }
+    .nav-div3{
+        display: block;
     }
     .nav-head{
         font-size: 21px;
@@ -338,6 +499,9 @@ flex-shrink: 0;
     }
     .nav-img{
         height: 30px;
+    }
+    .nav-ul{
+        display: none;
     }
     .banner-div{
         width: 100%;
@@ -364,6 +528,11 @@ flex-shrink: 0;
     .banner-btn{
         width: 275px;
     }
+    .body-input-div{
+        width: 73%;
+        height: 283px;
+        padding-top: 15px;
+    }
     .wherego-input{
         width: 256px;
         margin-bottom: 15px;
@@ -374,7 +543,7 @@ flex-shrink: 0;
         width: 318px;
         padding-top: 13px;
     }
-    .popular-tours,.place1,.place2,.place3,.services{
+    .popular-tours,.place1,.place2,.place3,.services,.newsletter-div{
         flex-direction: column;
         width: 100%;
     }
@@ -407,5 +576,64 @@ flex-shrink: 0;
     .maldives-div{
         font-size: 26px;
     }
+    .footer-one{
+        height: 424px;
+
+    }
     
+    .social-media{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 324px;
+    }
+    .footer-one{
+        width: 100%;
+    }
+    .save{
+        width: 100%;
+        height: 424px;
+
+
+    }
+    .save-img{
+        width: 100%;
+        height: 424px; 
+    }
+    .subscribe{
+        height: 424px;
+        width: 378px;
+
+    }
+    .input-class{
+        width: 305px;
+    }
+    .input-btn{
+        width: 335px;
+    }
+   .save-discount{
+    width: 214.023px;
+    height: 79.268px;
+    width: 214.023px;
+    height: 79.268px;
+    left: 87px;
+    bottom: 155px;
+   }
+   .travel-desc{
+    font-size: 18px;
+   }
+   .save-desc{
+    font-size: 22px;
+   }
+   .copyright{
+    margin-top: 50px;
+   }
+   .subscribe-desc{
+    width: 327px;
+   }
+    .nav-div3{
+        display: block;
+        padding-top: 24px;
+        padding-left: 165px;
+    }
+   
 }
