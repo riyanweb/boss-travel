@@ -235,6 +235,66 @@ body{
     height: 300px;
 
 }
+.best-deals{
+    margin: 80px 0px;
+}
+.best-deals-div{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+
+}
+.budget{
+    width: 500px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border: 1px solid #FF5400;
+    padding: 10px;
+    position: relative;
+    right: 100px;
+    border-radius: 16px;
+    background-color:white
+}
+ .budget h5{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+    padding-top: 35px;
+
+
+}
+.budget h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px;
+}
+.budget p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.plane-div{
+    width: 630px;
+}
+.plane-pic{
+    width: 750px;
+    border-radius: 16px;
+
+}
+.evening-pic{
+    width: 250px;
+
+}
+
 
 .advantages-head{
     color: #131318;
@@ -242,7 +302,7 @@ body{
     font-family: Mulish;
     font-size: 40px;
     font-weight: 800;
-    padding-top: 26px;
+    margin-top: 75px;
 
 }
 .advantages-desc{
@@ -635,5 +695,21 @@ footer{
         padding-top: 24px;
         padding-left: 165px;
     }
+    .best-deals-div{
+        width: 100%;
+        flex-direction: column;
+    }
+    .plane-pic{
+       width: 414px;
+
+    }
+    .budget{
+        position: relative;
+        right: 0px;
+        width: 390px;
+    }
+   .budget p br,.budget h1 br{
+    display: none;
+   }
    
 }
