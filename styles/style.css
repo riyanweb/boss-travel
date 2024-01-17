@@ -589,7 +589,7 @@ footer{
         width: 275px;
     }
     .body-input-div{
-        width: 73%;
+        width: 54%;
         height: 283px;
         padding-top: 15px;
     }
@@ -661,23 +661,23 @@ footer{
     }
     .subscribe{
         height: 424px;
-        width: 378px;
+        width: 547px;
 
     }
     .input-class{
-        width: 305px;
+        width: 470px;
     }
     .input-btn{
-        width: 335px;
+        width: 497px;
     }
    .save-discount{
     width: 214.023px;
     height: 79.268px;
     width: 214.023px;
     height: 79.268px;
-    left: 87px;
+    left: 173px;
     bottom: 155px;
-   }
+   }   
    .travel-desc{
     font-size: 18px;
    }
@@ -688,28 +688,31 @@ footer{
     margin-top: 50px;
    }
    .subscribe-desc{
-    width: 327px;
+    width: 494px;
    }
     .nav-div3{
         display: block;
         padding-top: 24px;
-        padding-left: 165px;
+        padding-left: 340px;
     }
     .best-deals-div{
         width: 100%;
         flex-direction: column;
     }
     .plane-pic{
-       width: 414px;
+        width: 585px;
 
     }
     .budget{
         position: relative;
         right: 0px;
-        width: 390px;
+        width: 558px;
     }
    .budget p br,.budget h1 br{
     display: none;
+   }
+   .best-deals{
+    margin: 55px 0px;
    }
    
 }
